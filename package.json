@@ -1,0 +1,31 @@
+{
+  "name": "urlscan-bot",
+  "version": "1.0.0",
+  "description": "A Telegram bot to generates screenshot of given URL",
+  "main": "urlscanbot.js",
+  "dependencies": {
+    "md5": "^2.0.0",
+    "node-telegram-bot": "0.0.18",
+    "valid-url": "^1.0.9",
+    "webshot": "^0.16.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "URLSCANBOT_TOKEN='Your Token' node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zam89/urlscanbot.git"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "screenshot",
+    "phantomjs"
+  ],
+  "author": "Zam89",
+  "bugs": {
+    "url": "https://github.com/zam89/urlscanbot/issues"
+  },
+  "homepage": "https://github.com/zam89/urlscanbot"
+}
